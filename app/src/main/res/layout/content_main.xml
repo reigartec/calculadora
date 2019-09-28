@@ -33,8 +33,7 @@
                     android:layout_height="170dp"
 
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="23dp"
-                    android:layout_marginLeft="23dp"
+
                     android:layout_marginBottom="40dp"
                     android:background="@drawable/mi_borde"
                     android:orientation="vertical"
@@ -62,7 +61,7 @@
                         android:paddingTop="30dp"
                         android:paddingRight="10dp"
                         android:text="0"
-                        android:textSize="26dp"
+                        android:textSize="23dp"
                         android:textStyle="bold"
                         android:textAlignment="viewEnd" />
 
@@ -78,25 +77,33 @@
                         android:id="@+id/b7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="7" />
+                        android:text="7"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/b8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8" />
+                        android:text="8"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/b9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="9" />
+                        android:text="9"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bdividir"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="÷" />
+                        android:text="÷"
+                        android:textSize="18dp"
+                        />
                 </TableRow>
 
                 <TableRow
@@ -108,25 +115,33 @@
                         android:id="@+id/b4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="4" />
+                        android:text="4"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/b5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5" />
+                        android:text="5"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/b6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="6" />
+                        android:text="6"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bmultiplicar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="× " />
+                        android:text="× "
+                        android:textSize="18dp"
+                        />
                 </TableRow>
 
                 <TableRow
@@ -138,25 +153,33 @@
                         android:id="@+id/b1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="1" />
+                        android:text="1"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/b2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2" />
+                        android:text="2"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/b3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="3" />
+                        android:text="3"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bmenos"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="–" />
+                        android:text="–"
+                        android:textSize="18dp"
+                        />
                 </TableRow>
 
                 <TableRow
@@ -168,25 +191,33 @@
                         android:id="@+id/b0"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="0" />
+                        android:text="0"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bpunto"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="." />
+                        android:text="."
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bporcentaje"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="%" />
+                        android:text="%"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bmas"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="+" />
+                        android:text="+"
+                        android:textSize="18dp"
+                        />
                 </TableRow>
 
                 <TableRow
@@ -206,13 +237,17 @@
                         android:id="@+id/bborrar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="C" />
+                        android:text="C"
+                        android:textSize="18dp"
+                        />
 
                     <Button
                         android:id="@+id/bigual"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="=" />
+                        android:text="="
+                        android:textSize="18dp"
+                        />
 
                 </TableRow>
             </TableLayout>
